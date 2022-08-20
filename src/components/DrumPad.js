@@ -9,8 +9,7 @@ const DrumPad = ({keyName, setAudioName}) => {
     document.addEventListener("keypress",(e) => {
 
       pads.forEach((element) => {
-        if(e.key === element.innerText.toLowerCase()){
-          console.log(e.key)
+        if(e.key.toLowerCase() === element.innerText.toLowerCase()){
           setAudioName(element.id)
           element.querySelector("audio").play()
         }
@@ -18,7 +17,7 @@ const DrumPad = ({keyName, setAudioName}) => {
       
     })
     
-  },[])
+  },[setAudioName])
   
   
   return (

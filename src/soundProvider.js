@@ -1,12 +1,12 @@
-const q = "https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Pads/195[kb]alarmpad.wav.mp3"
-const w = "https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Pads/3100[kb]alien-monolith-pad.wav.mp3"
-const e = "https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Pads/916[kb]all-glitter-and-shimmer-pad.wav.mp3"
-const a = "https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Pads/3724[kb]ambient-dreamscape.wav.mp3"
-const s = "https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Pads/7551[kb]ambient-peaceful-paradise-pad-journey.wav.mp3"
-const d = "https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Pads/261[kb]ambient-strum-sustain.wav.mp3"
-const z = "https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Pads/948[kb]analog_stack_hit.wav.mp3"
-const x = "https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Pads/865[kb]angelpads.wav.mp3"
-const c = "https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Pads/4468[kb]atmospheric-abduction.wav.mp3"
+const q = "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"
+const w = "https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"
+const e = "https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"
+const a = "https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"
+const s = "https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"
+const d = "https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"
+const z = "https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"
+const x = "https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"
+const c = "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"
 
 export const soundProvider = (key) => {
     switch (key){

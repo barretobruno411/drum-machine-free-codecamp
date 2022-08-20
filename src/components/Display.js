@@ -11,7 +11,7 @@ const Display = () => {
         {keys.map((key, index) => (
             <DrumPad keyName={key} key={index} setAudioName={setAudioName}/>
         ))}
-        <p>{audioName}</p>
+        <p></p><h1 id='audio-description'>{audioName}</h1>
     </div>
   )
 }
